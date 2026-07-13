@@ -29,8 +29,6 @@ requirements.txt
 | `networks.py` | Shared Actor / Critic / StatePredictor nets (used by TD3 & SAC) |
 | `buffer.py` | Replay buffer (used by TD3 & SAC) |
 
-The **main training / planning program** (environment, multi-agent game loop, experiment scripts) is **not** included. For collaboration or full-code access, please contact the corresponding author.
-
 ### Tropical cyclone cases (index → name)
 
 | Index | TC name    |
@@ -71,7 +69,3 @@ print(r.shape)
   url     = {https://www.sciencedirect.com/science/article/pii/S246801332600077X}
 }
 ```
-
-## License / code availability
-
-Figures, reward histories, and the inner-loop RL algorithm modules are released for academic use with the paper. The full planning / training entry program is omitted from this public repository and may be shared upon reasonable request for non-commercial research.
